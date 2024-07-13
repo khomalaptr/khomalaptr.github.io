@@ -1,0 +1,250 @@
+/* CSS RESET */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: monserat, sans-serif;
+}
+h2,
+h3 {
+  color: rgb(201, 108, 108);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 50px; */
+  font-weight: bold;
+  font-variant: small-caps;
+  text-shadow: 0 8px 10px burlywood;
+}
+h1 {
+  color: lemonchiffon;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 50px; */
+  font-weight: bold;
+  font-variant: small-caps;
+  text-shadow: 0 10px 8px rgb(219, 0, 88);
+}
+
+#phome {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 20px;
+}
+
+#pprofil {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: bold;
+  padding: 20px;
+  text-align: justify;
+  font-size: medium;
+}
+
+#pmenu {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: bold;
+  padding: 20px;
+  text-align: justify;
+  font-size: medium;
+}
+
+#ppesan {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: bold;
+  padding: 20px;
+  text-align: justify;
+  font-size: medium;
+}
+
+#tmenu {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: bold;
+  padding: 20px;
+  text-align: justify;
+  font-size: medium;
+  margin: auto;
+}
+
+#h22 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#plogo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+#ta2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: auto;
+}
+
+#navi {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 50px; */
+  font-weight: bold;
+  font-variant: small-caps;
+  text-shadow: 0 10px 8px rgb(219, 0, 88);
+}
+
+footer {
+  background-color: burlywood;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.gambar-artikel {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.gambar-dokum {
+  width: 200px;
+}
+main {
+  padding: 20px;
+}
+.card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.21);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: rgb(201, 108, 108);
+  background-image: url(img/bg3.jpg);
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  height: 500px;
+}
+.logomenu {
+  padding: 0px;
+  height: 220px;
+}
+
+.gambar-dokum {
+  /* margin-top: 10px; */
+  padding: 20px;
+  margin: auto;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+nav a {
+  font-size: 18;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: burlywood;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+header {
+  display: inline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+}
+
+#content {
+  flex-grow: 5;
+}
+
+aside {
+  flex-grow: 1;
+  /* display: flex; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.21);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  height: 400px;
+}
+
+aside header {
+  text-align: center;
+}
+
+aside table {
+  border-collapse: collapse;
+}
+
+aside table th,
+aside table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  main {
+    flex-wrap: wrap;
+  }
+  #content,
+  aside {
+    width: 100%;
+  }
+}
